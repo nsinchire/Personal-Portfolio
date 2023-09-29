@@ -200,7 +200,7 @@ input[type=submit]:hover {
 
 /* Large profile image */
 .large-profile {
-  background: url('images/nest.png');
+  background: url('nest.png');
   background-size: cover;
   background-position: center;
 }
