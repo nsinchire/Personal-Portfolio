@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nestor - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="styles.css" rel="stylesheet">
+    <style>
+    </style>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <header>
+        <nav id="home">
+            <div class="left"></div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Nestor</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="https://www.linkedin.com/in/nestor-sinchire/" class="button">LinkedIn</a>
+                    <a href="https://drive.google.com/file/d/1fRS-xe4TPHXQDlFtimU-ZSm3AvXAuL3h/view?usp=sharing" class="button">Resume</a>
+                    <a href="https://github.com/nsinchire" class="button">Github</a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="images/dn.png" alt="">
+            </div>
+        </section>
+        <section class="SecondSection">
+            <div class="column-2">
+                <h1 id="about">About me</h1>
+                <p>Hey! My name is Nestor Sinchire! I am currently majoring in Computer Engineering at Stevens Institute
+                    of Technology. I plan on graduating in winter 2024. My love for technology stemmed from my passion
+                    for video games. Growing up surronded by technology really sparked my interest for it. In my free time I enjoy playing video games, working out, coding, and hanging out with friends!</p>
+            </div>
+            <div class="column-2 large-profile">
+            </div>
+
+            </div>
+        </section>
+        <section class="Skill">
+            <div class="skill-inner">
+                <div class="skill-header">
+                    <h1 id="skills">Skills</h1>
+                </div>
+                <div class="container2">
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="images/html.png " class="skill-icon">
+                            </div>
+                            <h3>HTML</h3>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="images/csss.png" class="skill-icon">
+                            </div>
+                            <h3>CSS</h3>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="images/node.png" class="skill-icon">
+                            </div>
+                            <h3>JavaScript</h3>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="images/c.png" class="skill-icon">
+                            </div>
+                            <h3>C#</h3>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="images/react.png" class="skill-icon">
+                            </div>
+                            <h3>React.Js</h3>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="images/cpp.png" class="skill-icon">
+                            </div>
+                            <h3>C++</h3>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="images/pyth.png" class="skill-icon">
+                            </div>
+                            <h3>Python</h3>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="images/nodejs.png" class="skill-icon">
+                            </div>
+                            <h3>Node.Js</h3>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="images/java.png" class="skill-icon">
+                            </div>
+                            <h3>Java</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Computer Engineer', 'Web Developer', 'Full Stack Developer'],
+            typeSpeed: 40,
+            loop: true
+        });
+    </script>
+    <div class="container">
+        <div style="text-align:center">
+            <h2 id="contact">Contact Me</h2>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="images/contus.png" style="width:100%">
+            </div>
+            <div class="column">
+                <form action="https://formspree.io/f/xnqkonwd" method="POST">
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.." autocomplete="off" required>
+                    <label for="lname">Email</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your email.." autocomplete="off" required>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:170px" autocomplete="off" required></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
