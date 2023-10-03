@@ -238,6 +238,14 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 600px) {
+  .column-2,
+  input[type=submit]{
+    width: 100%
+      margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
 
   .large-profile,
   input[type=submit] {
