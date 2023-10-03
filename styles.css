@@ -195,14 +195,14 @@ input[type=submit]:hover {
   margin-bottom: 70px;
   background-color: rgb(18, 18, 62);
   line-height: 2;
-  font-size: 1.29rem;
+  font-size: 1.28rem;
 }
 
 
 
 /* Large profile image */
 .large-profile {
-  background: url('images/nest.png');
+  background: url('nest.png');
   background-size: cover;
   background-position: center;
 }
