@@ -382,7 +382,7 @@ h2 {
   font-weight: bold;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 600px) {
   .container2 {
     grid-template-columns: repeat(2, 1fr);
   }
